@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Koulen&display=swap');
+body{
+    font-family: 'Fredoka One', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper, .habilidades, .proyectos{
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.brand span{
+    color: #E3D12A;
+
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu a:hover{
+    background-color: #E3D12A;
+    color:#191c32;
+    transition: ease-in .2s;
+}
+.menu .activo{
+    color: #E3D12A;
+}
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+h1{
+    font-size: 3em;
+}
+span{
+    color: #E3D12A;
+}
+.btndownload{
+    padding: 10px 20px;
+    background-color: #E3D12A;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btndownload:hover{
+    background-color: #fff;
+}
+.main .avatar{
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+.skills{
+    padding: 4em;
+}
+/* iconos de las skills */
+.skills-info .iconos{
+    margin-top: 2em;
+    margin: 1em;
+    width: 100px;
+    border-radius: 50%;
+    transition: transform 0.8s ease-in-out;
+
+}
+.skills-info .iconos:hover{
+    transform: rotate(360deg);
+    
+}
+/* proyectos */
+.portafolio-head{
+    width: 100vw;
+    padding: 4em;
+}
+.portafolio .contenido{
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+}
+.contenido{
+    border: 5px solid #E3D12A;
+    border-radius: 10px;
+    align-items: center;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    place-items: center;
+    padding: 1em;
+}
+.card_img img{
+    width: 250px;
+    height: 200px;
+}
+.paraflex{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    flex-wrap: wrap;
+    grid-gap: 1em;
+
+}
+.btn_portafolio{
+    padding: 10px 30px;
+    background-color: #E3D12A;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+.btn_portafolio:hover{
+    background-color: #fff;
+}
